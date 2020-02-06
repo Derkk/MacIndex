@@ -17,7 +17,7 @@ chromeDriver.get("https://www.apple.com/be-fr/shop/buy-mac/macbook-pro/13-pouces
 Current_price = chromeDriver.find_elements_by_class_name("as-price-currentprice")
 
 for priceScan in Current_price:
-    print(priceScan.get_attribute("as-price-currentprice"))
+    print(priceScan.get_attribute("class"))
 
 
 time.sleep(15)
