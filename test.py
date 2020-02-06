@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.get("https://www.apple.com/be-fr/shop/buy-mac/macbook-pro/13-pouces")
